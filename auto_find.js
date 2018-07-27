@@ -1,7 +1,7 @@
 $(document).ready(function(){
     // search field - on keyup
     $('#search').on('keyup', function(){
-        console.log("working");
+        //console.log($(this).val());
         var searchTerm = $(this).val().toLowerCase();
         // list to be filtered as characters are typed
         $('.buildinglist button').each(function(){
